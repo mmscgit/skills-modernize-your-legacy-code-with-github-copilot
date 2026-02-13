@@ -1,0 +1,26 @@
+{
+  "name": "account-management-system",
+  "version": "1.0.0",
+  "description": "Node.js implementation of the COBOL Account Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --forceExit",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "cobol",
+    "modernization",
+    "student-accounts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
